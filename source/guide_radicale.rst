@@ -35,13 +35,13 @@ Radicale_ is a Free and Open-Source CalDAV and CardDAV Server.
 Prerequisites
 =============
 
-Your radicale URL needs to be setup:
+Your radicale URL needs to be setup. The radicale webclient as well as the radicale API will be available under this URL:
 
 .. include:: includes/web-domain-list.rst
 
 The configuration directory needs to be created:
 
-::
+.. code-block:: console
 
  [isabell@stardust ~] mkdir -p ~/.config/radicale/
 
@@ -192,7 +192,7 @@ Start Service
   radicale: added process group
   [isabell@stardust ~]$
 
-And you're done!
+And you're done! Your uberspace webclient should be available under the URL in point "Prerequisites".
 
 
 Updates
